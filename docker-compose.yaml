@@ -18,5 +18,6 @@ services:
       container_name: cheshire_cat_nginx
       ports:
         - 80:80
+        - 443:443
       depends_on:
         - cheshire-cat-core
